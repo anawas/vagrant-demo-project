@@ -1,5 +1,5 @@
 # vagrant-demo-project
-A demo project that uses Vagrant to bring up a webserver on Ubuntu. 
+A demo project that uses Vagrant to bring up a webserver on Ubuntu. It can only serve static webpages, because there is no php installed. Tweak the file `scripts/install.sh` accordingly if you need this feature. 
 
 ## Requirements
 You need to install the following tools:
@@ -15,5 +15,3 @@ You need to install the following tools:
 
 ## Running
 To run the server just type ```vagrant up```
-
-
