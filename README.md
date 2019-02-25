@@ -10,6 +10,7 @@ You need to install the following tools:
 - The webserver is based on [Nginx](https://nginx.org/en/). 
 - The web root is ```/data/www```. This folder is synched to the host directory ```./website```. 
 - The configuration file fpr Nginx is in host folder ```scripts```.
+- In order to assure a consistent installation automatic box update checking is turned off. To check for updates run `vagrant box outdated`.
 
 ## Running
 To run the server just type ```vagrant up```
