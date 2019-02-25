@@ -7,6 +7,7 @@ You need to install the following tools:
 - [Oracle's VirtualBox](https://www.virtualbox.org)
 
 ## Comments
+- The guest OS is Ubuntu 18.04 LTS (Bionic Beaver)
 - The webserver is based on [Nginx](https://nginx.org/en/). 
 - The web root is ```/data/www```. This folder is synched to the host directory ```./website```. 
 - The configuration file fpr Nginx is in host folder ```scripts```.
